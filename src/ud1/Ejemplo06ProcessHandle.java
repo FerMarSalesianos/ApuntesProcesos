@@ -15,6 +15,7 @@ public class Ejemplo06ProcessHandle {
 
         System.out.println(
                 "Información: "
+                //muestra información del proceso
                 + procesoActual.info()
         );
     }

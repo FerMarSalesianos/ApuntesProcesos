@@ -10,18 +10,18 @@ public class CalculadoraPadre {
 
     public static void main(String[] args) {
 
-        String java = System.getProperty("java.home")
-                + File.separator
+        String java = System.getProperty("java.home") //obtiene la carpeta donde está instalado el Java con el que se está ejecutando tu programa.
+                + File.separator //añade el separador de carpetas correcto según el sistema operativo. windows seria \ pero en linux o mac es /. con esto aseguramos que el codigo funcione siempre
                 + "bin"
                 + File.separator
                 + "java";
-
+                //todo esto ahorra algo de este estilo C:\Program Files\Java\jdk-21\bin\java (adaptado a todos los SO)
         String classpath = System.getProperty("java.class.path");
 
         ProcessBuilder pb = new ProcessBuilder(
-                java,
-                "-cp",
-                classpath,
+                java, //usa el String creado en la 13
+                "-cp", //avisa al terminal de que lo siguiente el un classpath
+                classpath, //la ruta "generica" al fichero del proceso.
                 "comunicacionpadrehijo.CalculadoraHijo"
         );
 

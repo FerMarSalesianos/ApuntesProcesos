@@ -12,7 +12,8 @@ public class Ejemplo02EsperarProceso {
 
             System.out.println("Proceso iniciado.");
             System.out.println("PID: " + proceso.pid());
-
+            //waitfor retorna un entero indicando como ha terminado el proceso
+            //recordemos que con 0 el proceso termina de forma existosa, y con !=0 indica fallo
             int codigoSalida = proceso.waitFor();
 
             System.out.println("Proceso terminado.");
