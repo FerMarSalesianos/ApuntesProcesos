@@ -1,0 +1,11 @@
+EJEMPLO 07: estadosDeHilo
+Diapositivas: 15
+
+Objetivo: Mostrar de forma controlada NEW, TIMED_WAITING, WAITING, BLOCKED, TERMINATED.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploEstados
+
+Que observar: Estados intermedios son fotografías del instante y pueden depender del planificador.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

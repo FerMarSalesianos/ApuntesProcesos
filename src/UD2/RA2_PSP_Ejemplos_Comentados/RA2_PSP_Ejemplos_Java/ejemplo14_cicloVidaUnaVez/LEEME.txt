@@ -1,0 +1,11 @@
+EJEMPLO 14: cicloVidaUnaVez
+Diapositivas: 15, 26
+
+Objetivo: Demostrar que un Thread solo permite ejecutar start() una vez.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploCicloVida
+
+Que observar: El error no indica que Runnable no sea reutilizable, sino que el Thread no se puede reiniciar.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

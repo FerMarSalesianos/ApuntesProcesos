@@ -1,0 +1,11 @@
+EJEMPLO 15: condicionCarrera
+Diapositivas: 28-30
+
+Objetivo: Reproducir el problema de contador++ compartido sin sincronización.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploCondicionCarrera
+
+Que observar: El uso de volatile evita confundir visibilidad y atomicidad; el resultado sigue sin garantizarse.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

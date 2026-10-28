@@ -1,0 +1,11 @@
+EJEMPLO 08: joinEsperar
+Diapositivas: 16
+
+Objetivo: Usar join() para que main espere realmente al trabajador.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploJoin
+
+Que observar: Quitar join para analizar qué mensajes podrían aparecer antes.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

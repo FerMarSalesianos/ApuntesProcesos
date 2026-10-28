@@ -1,0 +1,11 @@
+EJEMPLO 17: synchronizedContador
+Diapositivas: 32, 35, 38
+
+Objetivo: Resolver condición de carrera protegiendo método con synchronized.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploSynchronized
+
+Que observar: Comparar con ejemplo de condición de carrera y AtomicInteger.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

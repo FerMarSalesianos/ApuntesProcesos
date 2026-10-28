@@ -1,0 +1,11 @@
+EJEMPLO 10: nombresHilos
+Diapositivas: 20
+
+Objetivo: Utilizar constructores y getName/setName para identificar tareas.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploNombres
+
+Que observar: Los nombres son útiles en los logs y depuración.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

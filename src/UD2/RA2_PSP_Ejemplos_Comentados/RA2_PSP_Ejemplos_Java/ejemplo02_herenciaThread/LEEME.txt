@@ -1,0 +1,11 @@
+EJEMPLO 02: herenciaThread
+Diapositivas: 6-7
+
+Objetivo: Crear una clase que extienda Thread y sobrescriba run().
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploHerenciaThread
+
+Que observar: Ejecutar varias veces: el orden de impresión puede cambiar.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

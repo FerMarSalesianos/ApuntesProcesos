@@ -1,0 +1,11 @@
+EJEMPLO 20: volatileVisibilidad
+Diapositivas: 38
+
+Objetivo: Comparar visibilidad de volatile con atomicidad de los contadores.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploVolatile
+
+Que observar: Cambiar volatile no es una solución válida a contador++.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

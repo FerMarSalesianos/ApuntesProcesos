@@ -1,0 +1,11 @@
+EJEMPLO 01: hiloPrincipal
+Diapositivas: 2-5
+
+Objetivo: Identificar el hilo main, su nombre, ID, prioridad, estado y si sigue activo.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploHiloPrincipal
+
+Que observar: Observar que el nombre normal del hilo principal es main.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

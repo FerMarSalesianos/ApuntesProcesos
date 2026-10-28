@@ -1,0 +1,11 @@
+EJEMPLO 12: hiloDaemon
+Diapositivas: 23
+
+Objetivo: Mostrar por qué un hilo daemon no mantiene por sí solo viva la JVM.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploDaemon
+
+Que observar: El daemon puede detenerse sin ejecutar una rutina final de limpieza.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

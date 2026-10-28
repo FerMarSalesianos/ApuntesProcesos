@@ -1,0 +1,11 @@
+EJEMPLO 18: deadlockDemostracion
+Diapositivas: 33
+
+Objetivo: Provocar interbloqueo de dos monitores y diagnosticarlo sin dejar proceso colgado.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploDeadlock
+
+Que observar: La barrera fuerza el ciclo; daemon permite cerrar, pero el interbloqueo no se resuelve.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

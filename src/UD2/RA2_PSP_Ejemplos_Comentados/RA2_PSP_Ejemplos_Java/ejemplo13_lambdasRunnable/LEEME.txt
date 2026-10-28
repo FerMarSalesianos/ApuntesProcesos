@@ -1,0 +1,11 @@
+EJEMPLO 13: lambdasRunnable
+Diapositivas: 24-25
+
+Objetivo: Comparar una clase anónima, una lambda y una clase propia Runnable.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploLambdas
+
+Que observar: Preguntar: ¿qué ocurre si invocamos tareaLambda.run() directamente?
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

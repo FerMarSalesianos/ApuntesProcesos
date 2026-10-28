@@ -1,0 +1,11 @@
+EJEMPLO 03: interfazRunnable
+Diapositivas: 8-10
+
+Objetivo: Separar la definición de la tarea (Runnable) del hilo (Thread).
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploRunnable
+
+Que observar: Comparar con extends Thread; Runnable representa la tarea, no el hilo.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

@@ -1,0 +1,11 @@
+EJEMPLO 04: multiplesHilos
+Diapositivas: 7, 11
+
+Objetivo: Lanzar tres tareas concurrentes y observar su intercalado.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploMultiplesHilos
+
+Que observar: Repetir y comparar el orden de la consola.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

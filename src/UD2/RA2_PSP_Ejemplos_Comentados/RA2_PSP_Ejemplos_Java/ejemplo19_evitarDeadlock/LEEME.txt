@@ -1,0 +1,11 @@
+EJEMPLO 19: evitarDeadlock
+Diapositivas: 33, 35
+
+Objetivo: Prevenir deadlock obteniendo los recursos siempre en el mismo orden.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploEvitarDeadlock
+
+Que observar: La regla de orden global de adquisición previene este tipo de ciclo.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

@@ -1,0 +1,11 @@
+EJEMPLO 16: atomicInteger
+Diapositivas: 30-31, 38
+
+Objetivo: Corregir el contador con AtomicInteger e incrementar de forma atómica.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploAtomicInteger
+
+Que observar: Siempre debe imprimirse 400000 antes de set(0).
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

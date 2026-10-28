@@ -1,0 +1,11 @@
+EJEMPLO 05: startVsRun
+Diapositivas: 12
+
+Objetivo: Demostrar que run() es una llamada ordinaria y start() inicia otro hilo.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploStartVsRun
+
+Que observar: run() imprimirá main; start() imprimirá Hilo-Start.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

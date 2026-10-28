@@ -1,0 +1,183 @@
+ejemplo01_hiloPrincipal: compile OK, run exit=0
+Nombre: main
+ID: 1
+Prioridad: 5
+Estado: RUNNABLE
+Activo: true
+
+
+ejemplo02_herenciaThread: compile OK, run exit=0
+main también se está ejecutando.
+Hilo-B -> paso 1
+Hilo-B -> paso 2
+Hilo-A -> paso 1
+Hilo-B -> paso 3
+Hilo-B -> paso 4
+Hilo-A -> paso 2
+Hilo-A -> paso 3
+Hilo-A -> paso 4
+Hilo-B ha terminado su tarea.
+Hilo-A ha terminado su tarea.
+Todos han terminado.
+
+
+ejemplo03_interfazRunnable: compile OK, run exit=0
+Descarga-Documentos descarga documentos.zip: paso 1
+Descarga-Documentos descarga documentos.zip: paso 2
+Descarga-Imagenes descarga imagenes.zip: paso 1
+Descarga-Imagenes descarga imagenes.zip: paso 2
+Descarga-Documentos descarga documentos.zip: paso 3
+Descarga-Imagenes descarga imagenes.zip: paso 3
+Descargas finalizadas.
+
+
+ejemplo04_multiplesHilos: compile OK, run exit=0
+Tarea-A: 1
+Tarea-A: 2
+Tarea-B: 1
+Tarea-B: 2
+Tarea-B: 3
+Tarea-B: 4
+Tarea-B: 5
+Tarea-C: 1
+Tarea-A: 3
+Tarea-A: 4
+Tarea-A: 5
+Tarea-C: 2
+Tarea-C: 3
+Tarea-C: 4
+Tarea-C: 5
+Las tres tareas terminaron.
+
+
+ejemplo05_startVsRun: compile OK, run exit=0
+Antes de invocar run(): main
+Trabajo ejecutado por: main
+Antes de invocar start(): main
+Trabajo ejecutado por: Hilo-Start
+Demostración terminada.
+
+
+ejemplo06_sleepDescargas: compile OK, run exit=0
+Descarga-2 - parte 1
+Descarga-1 - parte 1
+Descarga-1 - parte 2
+Descarga-2 - parte 2
+Descarga-1 - parte 3
+Descarga-2 - parte 3
+Descarga-2 - parte 4
+Descarga-1 - parte 4
+Descarga-2 completada.
+Descarga-1 completada.
+Todas las descargas terminaron.
+
+
+ejemplo07_estadosDeHilo: compile OK, run exit=0
+Nuevo: NEW
+Durante sleep (habitual): TIMED_WAITING
+Esperando señal (habitual): WAITING
+Esperando monitor (habitual): BLOCKED
+Candado obtenido.
+Tras join: TERMINATED
+
+
+ejemplo08_joinEsperar: compile OK, run exit=0
+main: esperando al trabajador...
+El trabajador comienza.
+El trabajador termina.
+main: el trabajador ya ha terminado.
+
+
+ejemplo09_interrupcionCooperativa: compile OK, run exit=0
+Trabajando... 1
+Trabajando... 2
+Trabajando... 3
+Trabajando... 4
+main solicita detener al trabajador.
+Se ha recibido una solicitud de interrupción.
+El trabajador termina voluntariamente.
+Programa terminado.
+
+
+ejemplo10_nombresHilos: compile OK, run exit=0
+Se iniciarán: Descarga-Imagenes y Descarga-Documentos
+Ejecutando: Descarga-Imagenes
+Ejecutando: Descarga-Documentos
+
+
+ejemplo11_prioridades: compile OK, run exit=0
+Prioridad-baja: 1
+Prioridad-normal: 5
+Prioridad-alta: 10
+Prioridad-normal paso 1
+Prioridad-normal paso 2
+Prioridad-normal paso 3
+Prioridad-baja paso 1
+Prioridad-baja paso 2
+Prioridad-alta paso 1
+Prioridad-alta paso 2
+Prioridad-alta paso 3
+Prioridad-baja paso 3
+No se puede deducir el orden de la prioridad.
+
+
+ejemplo12_hiloDaemon: compile OK, run exit=0
+¿Es daemon? true
+Monitorización auxiliar: 1
+Monitorización auxiliar: 2
+Monitorización auxiliar: 3
+main termina; el daemon no mantiene viva la JVM.
+
+
+ejemplo13_lambdasRunnable: compile OK, run exit=0
+Clase anónima desde ClaseAnonima
+Lambda desde Lambda
+Lambda breve
+
+
+ejemplo14_cicloVidaUnaVez: compile OK, run exit=0
+Antes de start(): NEW
+Tarea en ejecución.
+Después de join(): TERMINATED
+No se puede reiniciar el mismo objeto Thread.
+Segunda ejecución.
+
+
+ejemplo15_condicionCarrera: compile OK, run exit=0
+Esperado: 400000
+Obtenido: 359848
+
+
+ejemplo16_atomicInteger: compile OK, run exit=0
+Valor esperado: 400000
+Valor obtenido: 400000
+Reiniciado con set(0): 0
+
+
+ejemplo17_synchronizedContador: compile OK, run exit=0
+Esperado: 400000
+Obtenido: 400000
+
+
+ejemplo18_deadlockDemostracion: compile OK, run exit=0
+Hilo 1 ha adquirido A.
+Hilo 2 ha adquirido B.
+Estado hilo 1: BLOCKED
+Estado hilo 2: BLOCKED
+¿Deadlock detectado?: true
+main termina; los hilos daemon siguen bloqueados.
+
+
+ejemplo19_evitarDeadlock: compile OK, run exit=0
+Trabajador-A tiene A
+Trabajador-A tiene A y B
+Trabajador-A terminó.
+Trabajador-B tiene A
+Trabajador-B tiene A y B
+Trabajador-B terminó.
+No hubo espera circular; todos terminaron.
+
+
+ejemplo20_volatileVisibilidad: compile OK, run exit=0
+El trabajador recibió la señal tras 992026079 vueltas.
+Trabajador detenido.

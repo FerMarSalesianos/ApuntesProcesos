@@ -1,0 +1,11 @@
+EJEMPLO 06: sleepDescargas
+Diapositivas: 13-14
+
+Objetivo: Pausar únicamente el hilo que llama a Thread.sleep().
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploSleep
+
+Que observar: Observar dos descargas intercaladas y tiempo total cercano a 1,6 s, no 3,2 s.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

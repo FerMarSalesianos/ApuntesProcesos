@@ -1,0 +1,11 @@
+EJEMPLO 09: interrupcionCooperativa
+Diapositivas: 17-19, 27
+
+Objetivo: Solicitar la interrupción, capturar InterruptedException y restaurar bandera.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploInterrupcion
+
+Que observar: No usar stop(); enseñar la cooperación del hilo para detenerse.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.

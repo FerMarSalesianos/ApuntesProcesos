@@ -1,0 +1,11 @@
+EJEMPLO 11: prioridades
+Diapositivas: 21-22
+
+Objetivo: Consultar y asignar prioridades de hilos sin asumir orden de ejecución.
+
+Compilar (desde esta carpeta): javac *.java
+Ejecutar: java EjemploPrioridades
+
+Que observar: No basar nunca la lógica en el valor de la prioridad.
+
+Nota: las salidas concurrentes pueden cambiar entre ejecuciones.
